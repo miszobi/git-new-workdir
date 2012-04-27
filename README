@@ -3,3 +3,6 @@ The original can be found there:
 http://git.kernel.org/?p=git/git.git;a=blob_plain;f=contrib/workdir/git-new-workdir;hb=HEAD
 
 The script was tested on Windows 7 with git version 1.7.4.msysgit.0.
+
+Also includes a version that works for xp, using junctions for directories, hardlinks for files.
+Requires junction.exe installed and in path (http://technet.microsoft.com/en-us/sysinternals/bb896768)
